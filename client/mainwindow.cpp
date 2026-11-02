@@ -264,7 +264,7 @@ void MainWindow::clearMessages() {
 
 /* ---------------- 消息渲染 ---------------- */
 
-//prepend = true：插到 stretch 之前（保持视觉“旧→新”）
+//prepend = true：插到 stretch 之前
 //prepend = false：追加到 stretch 之前（最新消息）
 //本函数所有插入都放在最后 stretch 之前/顶部，因为布局最后有一个stretch
 void MainWindow::appendMessage(const QJsonObject &msg, bool prepend) {
